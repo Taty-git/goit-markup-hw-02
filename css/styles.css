@@ -119,7 +119,49 @@ h1 {
     font-weight: medium;
     font-size: 20px;    
 }
-.team-text {
+.team-text .portfolio-text {
+    color: #434455;
     font-size: 16px;
     letter-spacing: 2%;
 }
+.portfolio-list {
+    background-color: #E7E9FC;
+    width: 1128px;
+    height: 1000px;
+    margin-left: 156px;
+    margin-right: 156px;
+    margin-bottom: 120px;
+}
+.portfolio-title {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 120px;;
+}
+.portfolio-list-blocks {
+    list-style-type: none;
+}
+.portfolio-image {
+    width: 360px;
+    height: 300px;
+}
+.portfolio-list-blocks-title {
+    color: #2E2F42;
+    font-weight: medium;
+    font-size: 20px;
+    letter-spacing: 2%;
+}
+footer {
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 312px;
+}
+.footer-text {
+    color: #F4F4FD;
+    width: 264px;
+    font-size: 16px;
+    letter-spacing: 2%;
+    margin-left: 156px;
+}
+
