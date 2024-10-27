@@ -52,9 +52,9 @@ header {
     color: #404BBF;
 }
 .main-block {
-    width: 1140px;
+    width: 1440px;
     height: 600px;
-    background-color: #2E2F42; 
+    background-color: #2E2F42;
 }
 h1 {
     color: #FFFFFF;
@@ -70,7 +70,7 @@ h1 {
     text-align: center;
     margin-top: 40px;
     color: #FFFFFF;
-    border-color: #4D5AE5;
+    border-color:#4D5AE5;
     font-size: 16px;
     cursor: pointer;
 }
@@ -95,4 +95,31 @@ h1 {
     color: #434455;
     font-size: 16px;
     font-weight: 200;
+}
+.team-list {
+    background-color: #F4F4FD;
+    width: 1440px;
+    height: 600px;
+}
+.team-title {
+    color: #2E2F42;     
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 120px;
+}
+.team-list-bloks {
+    list-style-type: none;
+}
+.team-pictur {
+    height: 260px;
+}
+.team-name {
+    color: #2E2F42;
+    font-weight: medium;
+    font-size: 20px;    
+}
+.team-text {
+    font-size: 16px;
+    letter-spacing: 2%;
 }
