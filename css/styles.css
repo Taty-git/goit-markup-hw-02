@@ -11,11 +11,11 @@ header {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.7;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5; 
-}
+    }
 .logo:focus, .logo:active {
     color: #404bbf;
 }
@@ -32,8 +32,10 @@ header {
 .link {
     color: #2E2F42;
     text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02e;
 }
-.link:hover, .link:active {
+.link:hover, .link:active, .link:focus {
     color: #404BBF;    
 }
 .had-address {
@@ -52,7 +54,7 @@ header {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.address-link:hover {
+.address-link:hover, .address-link:focus {
     color: #404BBF;
 }
 .main-block {
@@ -165,6 +167,8 @@ header {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
+    text-transform: uppercase;
+    color: #4d5ae5;
   }
   .span-logo-foot {
     color: #f4f4fd;
