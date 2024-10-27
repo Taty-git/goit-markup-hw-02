@@ -11,10 +11,13 @@ header {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
-    color: #4d5ae5
+    color: #4d5ae5; 
+}
+.logo:focus {
+    color: #404bbf;
 }
 .span-logo {
     color: #2e2f42;
@@ -33,16 +36,22 @@ header {
 .link:hover, .link:active {
     color: #404BBF;    
 }
-.address-nav {
-    font-weight: 400;
+.had-address {
     font-style: normal;
+}
+.address-nav {
+    font-weight: 400;  
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     list-style-type: none;      
 }
 .address-link {
     text-decoration: none;
     color: #434455;
     display: inline;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .address-link:hover {
     color: #404BBF;
